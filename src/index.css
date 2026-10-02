@@ -1,0 +1,899 @@
+/* ===================================================
+   Farm to Fork — Global Design System
+   =================================================== */
+
+/* CSS Custom Properties */
+:root {
+  /* Primary Palette — Earthy Greens */
+  --color-bg: #fdfaf6;
+  --color-bg-card: #ffffff;
+  --color-primary: #3e503b;
+  --color-primary-dark: #1a2e1c;
+  --color-primary-light: #627a61;
+  --color-accent: #8b9c8a;
+  --color-border: rgba(62, 80, 59, 0.1);
+  --color-border-hover: rgba(62, 80, 59, 0.25);
+  --color-badge-bg: #627a61;
+  --color-badge-text: #ffffff;
+  --color-overlay: rgba(62, 80, 59, 0.08);
+  --color-shadow: rgba(30, 50, 28, 0.08);
+  --color-shadow-hover: rgba(30, 50, 28, 0.18);
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 600ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Max Widths */
+  --max-width: 1200px;
+}
+
+/* ===================================================
+   Reset & Base
+   =================================================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background-color var(--transition-slow), color var(--transition-slow);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  outline: none;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ===================================================
+   App Container
+   =================================================== */
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.app__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-lg);
+  position: relative;
+  z-index: 1;
+}
+
+/* ===================================================
+   Decorative Background Leaves
+   =================================================== */
+.corner-decor {
+  position: absolute;
+  width: 336px;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 0;
+  mix-blend-mode: multiply;
+}
+
+.corner-decor--top-left {
+  top: -60px;
+  left: -60px;
+  transform: scale(-1, 1);
+}
+
+.corner-decor--bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: scale(-1, -1);
+}
+
+@keyframes leafFloat {
+
+  0%,
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+
+  50% {
+    transform: rotate(2deg) translateY(-8px);
+  }
+}
+
+/* ===================================================
+   Header
+   =================================================== */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+  padding-top: var(--space-sm);
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.header__logo-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-md);
+}
+
+.header__title {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+}
+
+.header__title-accent {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-primary-light);
+  font-size: 2rem;
+  margin: 0 0.15em;
+}
+
+.header__tagline {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-top: var(--space-xs);
+}
+
+.header__logo-image {
+  max-width: 260px;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+.header__divider {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+  margin-bottom: var(--space-md);
+}
+
+.header__subtitle {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-primary-light);
+}
+
+.header__logo-image--bar {
+  max-width: 260px;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+
+/* ===================================================
+   Navigation (Category Tabs + Pagination)
+   =================================================== */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--color-border);
+  animation: fadeIn 0.8s ease-out 0.2s both;
+}
+
+.nav__categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.nav__tab {
+  padding: 0.6rem 1.4rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: all var(--transition-base);
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav__tab::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.nav__tab--inactive {
+  color: var(--color-primary-light);
+  border-color: var(--color-border-hover);
+  background: transparent;
+}
+
+.nav__tab--inactive:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+}
+
+.nav__tab--active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+  box-shadow: 0 4px 14px var(--color-shadow-hover);
+}
+
+.nav__tab--active::before {
+  transform: scaleX(1);
+}
+
+.nav__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+.nav__page-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border-hover);
+  color: var(--color-primary);
+  transition: all var(--transition-fast);
+}
+
+.nav__page-btn:hover:not(:disabled) {
+  background: var(--color-overlay);
+  border-color: var(--color-primary);
+  transform: scale(1.08);
+}
+
+.nav__page-btn:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+.nav__page-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.nav__page-info {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+/* ===================================================
+   Menu Grid
+   =================================================== */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-xl);
+  min-height: 420px;
+}
+
+/* Step/zigzag layout for menu cards */
+.menu-grid--step {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.menu-grid--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-grid__empty-text {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--color-primary-light);
+  text-align: center;
+  padding: var(--space-3xl) 0;
+}
+
+/* ===================================================
+   Menu Card — Step / Zigzag Layout
+   =================================================== */
+.card {
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg) var(--space-xl);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 12px var(--color-shadow);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-xl);
+  position: relative;
+  transition: all var(--transition-slow);
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+/* Even cards: image left, content right — offset left */
+.card--even {
+  align-self: flex-start;
+  margin-right: 10%;
+}
+
+/* Odd cards: image right, content left — offset right */
+.card--odd {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+  margin-left: 10%;
+}
+
+.card:hover {
+  box-shadow: 0 12px 40px var(--color-shadow-hover);
+  transform: translateY(-4px);
+}
+
+/* Stagger animation delays */
+.card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.card:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.card:nth-child(3) {
+  animation-delay: 0.25s;
+}
+
+.card:nth-child(4) {
+  animation-delay: 0.35s;
+}
+
+.card:nth-child(5) {
+  animation-delay: 0.45s;
+}
+
+.card:nth-child(6) {
+  animation-delay: 0.55s;
+}
+
+/* Best Seller Badge */
+.card__badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
+  background: linear-gradient(135deg, var(--color-badge-bg), #4a6e49);
+  color: var(--color-badge-text);
+  padding: 0.3rem 0.9rem;
+  border-radius: var(--radius-full);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  box-shadow: 0 3px 10px rgba(62, 80, 59, 0.3);
+  animation: badgePulse 2.5s ease-in-out infinite;
+}
+
+.card--odd .card__badge {
+  right: auto;
+  left: 1rem;
+}
+
+@keyframes badgePulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+/* Circular Image Container with Lift Shadow */
+.card__image-wrap {
+  width: 160px;
+  height: 160px;
+  min-width: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 5px solid var(--color-bg);
+  box-shadow:
+    0 8px 24px rgba(30, 50, 28, 0.18),
+    0 2px 8px rgba(30, 50, 28, 0.1);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+.card:hover .card__image-wrap {
+  box-shadow:
+    0 14px 36px rgba(30, 50, 28, 0.25),
+    0 4px 12px rgba(30, 50, 28, 0.15);
+  transform: translateY(-4px);
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover .card__image {
+  transform: scale(1.1);
+}
+
+/* Card Content */
+.card__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.card--odd .card__content {
+  text-align: right;
+}
+
+.card__category {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-xs);
+}
+
+.card__name {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-xs);
+  line-height: 1.3;
+}
+
+.card__description {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 0.88rem;
+  color: var(--color-primary-light);
+  line-height: 1.6;
+  margin-bottom: var(--space-md);
+}
+
+.card__price-section {
+  margin-top: auto;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-border);
+  display: inline-block;
+}
+
+.card--odd .card__price-section {
+  margin-left: auto;
+}
+
+.card__price {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* ===================================================
+   Footer
+   =================================================== */
+.footer {
+  margin-top: 6rem;
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-border-hover);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out 0.4s both;
+}
+
+.footer__leaf {
+  width: 22px;
+  height: 22px;
+  color: var(--color-accent);
+  opacity: 0.5;
+  margin-bottom: var(--space-md);
+}
+
+.footer__message {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.footer__copyright {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-top: var(--space-md);
+}
+
+/* ===================================================
+   Animations
+   =================================================== */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* ===================================================
+   Responsive
+   =================================================== */
+@media (max-width: 1024px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
+  }
+
+  .card--even {
+    margin-right: 5%;
+  }
+
+  .card--odd {
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 2.2rem;
+  }
+
+  .header__title-accent {
+    font-size: 1.5rem;
+  }
+
+  .corner-decor {
+    width: 200px;
+  }
+
+  .app__container {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .nav__categories {
+    gap: 0.4rem;
+  }
+
+  .nav__tab {
+    padding: 0.5rem 1rem;
+    font-size: 0.72rem;
+  }
+
+  .card {
+    padding: var(--space-md);
+    gap: var(--space-md);
+  }
+
+  .card--even {
+    margin-right: 0;
+  }
+
+  .card--odd {
+    margin-left: 0;
+  }
+
+  .card__image-wrap {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+  }
+
+  .card__name {
+    font-size: 1.15rem;
+  }
+
+  .card__description {
+    font-size: 0.82rem;
+  }
+
+  .footer__message {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .header__title {
+    font-size: 1.8rem;
+  }
+
+  .header__title-accent {
+    font-size: 1.2rem;
+  }
+
+  .corner-decor {
+    width: 144px;
+  }
+
+  .card {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .card--odd .card__content,
+  .card--even .card__content {
+    text-align: center;
+  }
+
+  .card--odd .card__price-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card__image-wrap {
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+  }
+}
+
+/* ===================================================
+   Dark Theme (Speakeasy / Bar)
+   =================================================== */
+body.dark-theme {
+  --color-bg: #111512;
+  --color-bg-card: #1e241f;
+  --color-primary: #e8ede9;
+  --color-primary-dark: #fdfaf6;
+  --color-primary-light: #9eab9f;
+  --color-accent: #d4af37;
+  /* Gold accent */
+  --color-border: rgba(253, 250, 246, 0.1);
+  --color-border-hover: rgba(253, 250, 246, 0.25);
+  --color-badge-bg: #d4af37;
+  --color-badge-text: #111512;
+  --color-overlay: rgba(17, 21, 18, 0.7);
+  --color-shadow: rgba(0, 0, 0, 0.4);
+  --color-shadow-hover: rgba(0, 0, 0, 0.7);
+}
+
+/* ===================================================
+   Bar Card
+   =================================================== */
+.bar-card {
+  border-color: var(--color-border);
+}
+
+.bar-card:hover {
+  border-color: var(--color-accent);
+}
+
+/* Stagger animation delays (reused from card) */
+.bar-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.bar-card:nth-child(2) {
+  animation-delay: 0.12s;
+}
+
+.bar-card:nth-child(3) {
+  animation-delay: 0.19s;
+}
+
+.bar-card:nth-child(4) {
+  animation-delay: 0.26s;
+}
+
+.bar-card:nth-child(5) {
+  animation-delay: 0.33s;
+}
+
+.bar-card:nth-child(6) {
+  animation-delay: 0.40s;
+}
+
+.bar-card__badge {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 3;
+  background: var(--color-badge-bg);
+  color: var(--color-badge-text);
+  padding: 0.3rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bar-card__image-wrap {
+  border-color: var(--color-border);
+}
+
+.bar-card__image-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--color-overlay);
+  z-index: 1;
+  transition: background var(--transition-slow);
+}
+
+.bar-card:hover .bar-card__image-overlay {
+  background: transparent;
+}
+
+.bar-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bar-card:hover .bar-card__image {
+  transform: scale(1.05);
+}
+
+.bar-card__content {
+  /* Inherits from .card__content */
+}
+
+.bar-card__spirit {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.bar-card__name {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-sm);
+  line-height: 1.2;
+}
+
+.bar-card__description {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-primary-light);
+  line-height: 1.5;
+  margin-bottom: var(--space-md);
+}
+
+.bar-card__price-section {
+  /* Inherits layout from .card__price-section */
+}
+
+.bar-card__price {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-accent);
+}
