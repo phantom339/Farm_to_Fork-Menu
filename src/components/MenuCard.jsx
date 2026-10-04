@@ -13,23 +13,26 @@ export default function MenuCard({ item, index = 0 }) {
       className={`card ${isEven ? 'card--even' : 'card--odd'}`}
       id={`menu-item-${item.id}`}
     >
-      {/* Best Seller Badge */}
-      {item.bestSeller && (
-        <div className="card__badge" aria-label="Best Seller">
-          Best Seller
+      {/* Image and Badge Container */}
+      <div className="card__image-container">
+        {/* Circular Food Image with lift shadow */}
+        <div className="card__image-wrap">
+          <img
+            className="card__image"
+            src={item.imageUrl}
+            alt={item.name}
+            loading="lazy"
+            width="400"
+            height="400"
+          />
         </div>
-      )}
 
-      {/* Circular Food Image with lift shadow */}
-      <div className="card__image-wrap">
-        <img
-          className="card__image"
-          src={item.imageUrl}
-          alt={item.name}
-          loading="lazy"
-          width="400"
-          height="400"
-        />
+        {/* Best Seller Badge positioned on frame */}
+        {item.bestSeller && (
+          <div className="card__badge" aria-label="Best Seller">
+            Best Seller
+          </div>
+        )}
       </div>
 
       {/* Card Content */}

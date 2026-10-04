@@ -13,23 +13,26 @@ export default function BarCard({ item, index = 0 }) {
       className={`card bar-card ${isEven ? 'card--even' : 'card--odd'}`}
       id={`bar-item-${item.id}`}
     >
-      {/* Signature Badge */}
-      {item.signature && (
-        <div className="card__badge bar-card__badge" aria-label="Signature Cocktail">
-          ★ Signature
+      {/* Image and Badge Container */}
+      <div className="card__image-container">
+        {/* Circular Cocktail Image with lift shadow */}
+        <div className="card__image-wrap bar-card__image-wrap">
+          <img
+            className="card__image bar-card__image"
+            src={item.imageUrl}
+            alt={item.name}
+            loading="lazy"
+            width="400"
+            height="400"
+          />
         </div>
-      )}
 
-      {/* Circular Cocktail Image with lift shadow */}
-      <div className="card__image-wrap bar-card__image-wrap">
-        <img
-          className="card__image bar-card__image"
-          src={item.imageUrl}
-          alt={item.name}
-          loading="lazy"
-          width="400"
-          height="400"
-        />
+        {/* Signature Badge positioned on frame */}
+        {item.signature && (
+          <div className="card__badge bar-card__badge" aria-label="Signature Cocktail">
+            ★ Signature
+          </div>
+        )}
       </div>
 
       {/* Card Content */}

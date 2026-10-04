@@ -126,9 +126,9 @@ ul {
 }
 
 .corner-decor--top-left {
-  top: -60px;
-  left: -60px;
-  transform: scale(-1, 1);
+  top: -10px;
+  left: -20px;
+  transform: scale(1, 1);
 }
 
 .corner-decor--bottom-right {
@@ -373,11 +373,11 @@ ul {
    Menu Card — Step / Zigzag Layout
    =================================================== */
 .card {
-  background: var(--color-bg-card);
+  background: transparent;
   border-radius: var(--radius-lg);
   padding: var(--space-lg) var(--space-xl);
-  border: 1px solid var(--color-border);
-  box-shadow: 0 2px 12px var(--color-shadow);
+  border: none;
+  box-shadow: none;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -401,7 +401,6 @@ ul {
 }
 
 .card:hover {
-  box-shadow: 0 12px 40px var(--color-shadow-hover);
   transform: translateY(-4px);
 }
 
@@ -430,11 +429,19 @@ ul {
   animation-delay: 0.55s;
 }
 
+/* ===================================================
+   Menu Card Image Container & Badge
+   =================================================== */
+.card__image-container {
+  position: relative;
+  flex-shrink: 0;
+}
+
 /* Best Seller Badge */
 .card__badge {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 0;
+  right: -10px;
   z-index: 3;
   background: linear-gradient(135deg, var(--color-badge-bg), #4a6e49);
   color: var(--color-badge-text);
@@ -450,7 +457,7 @@ ul {
 
 .card--odd .card__badge {
   right: auto;
-  left: 1rem;
+  left: -10px;
 }
 
 @keyframes badgePulse {
@@ -467,9 +474,9 @@ ul {
 
 /* Circular Image Container with Lift Shadow */
 .card__image-wrap {
-  width: 160px;
-  height: 160px;
-  min-width: 160px;
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -698,9 +705,9 @@ ul {
   }
 
   .card__image-wrap {
-    width: 120px;
-    height: 120px;
-    min-width: 120px;
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
   }
 
   .card__name {
@@ -751,9 +758,9 @@ ul {
   }
 
   .card__image-wrap {
-    width: 140px;
-    height: 140px;
-    min-width: 140px;
+    width: 175px;
+    height: 175px;
+    min-width: 175px;
   }
 }
 
@@ -781,11 +788,11 @@ body.dark-theme {
    Bar Card
    =================================================== */
 .bar-card {
-  border-color: var(--color-border);
+  border: none;
 }
 
 .bar-card:hover {
-  border-color: var(--color-accent);
+  border: none;
 }
 
 /* Stagger animation delays (reused from card) */
@@ -815,8 +822,8 @@ body.dark-theme {
 
 .bar-card__badge {
   position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 0;
+  right: -10px;
   z-index: 3;
   background: var(--color-badge-bg);
   color: var(--color-badge-text);
@@ -827,6 +834,11 @@ body.dark-theme {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card--odd .bar-card__badge {
+  right: auto;
+  left: -10px;
 }
 
 .bar-card__image-wrap {
@@ -856,9 +868,7 @@ body.dark-theme {
   transform: scale(1.05);
 }
 
-.bar-card__content {
-  /* Inherits from .card__content */
-}
+
 
 .bar-card__spirit {
   font-family: var(--font-body);
@@ -887,9 +897,7 @@ body.dark-theme {
   margin-bottom: var(--space-md);
 }
 
-.bar-card__price-section {
-  /* Inherits layout from .card__price-section */
-}
+
 
 .bar-card__price {
   font-family: var(--font-heading);
