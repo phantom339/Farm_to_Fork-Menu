@@ -1,8 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Leaf, ChevronLeft, ChevronRight } from 'lucide-react';
 import { menuData, barData, categories, LEAF_IMG_URL, SECRET_TAP_COUNT, SECRET_TAP_WINDOW_MS, SECRET_KEYBOARD_CODE } from './data/menuData';
 import MenuCard from './components/MenuCard';
 import BarCard from './components/BarCard';
+import BackgroundSlideshow from './components/BackgroundSlideshow';
 
 /**
  * Farm to Fork — Main Menu Application
@@ -100,6 +101,11 @@ export default function App() {
   const handleNext = () =>
     setCurrentPage((prev) => Math.min(prev + 1, totalPages));
 
+  // Collect background images from the active category
+  const bgImages = useMemo(() => {
+    return filteredData.map((item) => item.imageUrl);
+  }, [filteredData]);
+
   return (
     <div className={`app ${isBarActive ? 'app--dark-theme' : ''}`}>
       {/* Decorative Leaf Illustrations (hidden on Bar menu for a cleaner look) */}
@@ -190,7 +196,9 @@ export default function App() {
         </nav>
 
         {/* ──── Menu Grid ──── */}
-        <main id="menu-grid" style={{ position: 'relative' }}>
+        <main id="menu-grid" className="menu-main">
+          {/* Background Slideshow */}
+          <BackgroundSlideshow images={bgImages} />
           {currentItems.length > 0 ? (
             <div className="menu-grid menu-grid--step" role="tabpanel" aria-labelledby={`tab-${activeCategory.toLowerCase()}`}>
               {currentItems.map((item, index) => (

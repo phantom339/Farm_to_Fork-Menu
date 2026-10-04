@@ -336,6 +336,78 @@ ul {
 }
 
 /* ===================================================
+   Background Slideshow
+   =================================================== */
+.menu-main {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+}
+
+.bg-slideshow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.bg-slideshow__slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(12px) saturate(1.3);
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.bg-slideshow__slide--active {
+  opacity: 0.50;
+  animation: bgSlideIn 1.5s ease-out forwards;
+}
+
+.bg-slideshow__slide--fading-out {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+@keyframes bgSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+
+  to {
+    opacity: 0.50;
+    transform: scale(1);
+  }
+}
+
+/* Dark theme: slightly brighter background images */
+body.dark-theme .bg-slideshow__slide--active {
+  opacity: 0.5;
+  filter: blur(15px) saturate(0.8) brightness(0.5);
+}
+
+@keyframes bgSlideInDark {
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+
+  to {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+
+body.dark-theme .bg-slideshow__slide--active {
+  animation-name: bgSlideInDark;
+}
+
+/* ===================================================
    Menu Grid
    =================================================== */
 .menu-grid {
@@ -343,6 +415,8 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-xl);
   min-height: 420px;
+  position: relative;
+  z-index: 1;
 }
 
 /* Step/zigzag layout for menu cards */
