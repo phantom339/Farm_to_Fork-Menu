@@ -198,7 +198,7 @@ export default function App() {
                 >
                   <Leaf size={16} className="header__category-icon" />
                   <span className="header__category-btn-text">
-                    {activeCategory === 'All' ? 'Categories' : activeCategory}
+                    Category
                   </span>
                   {activeCategory !== 'All' && <span className="header__category-dot" />}
                 </button>
