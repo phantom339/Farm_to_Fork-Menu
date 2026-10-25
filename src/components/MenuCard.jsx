@@ -37,12 +37,31 @@ export default function MenuCard({ item, index = 0 }) {
 
       {/* Card Content */}
       <div className="card__content">
-        <span className="card__category">{item.category}</span>
+        <div className="card__header-row">
+          <span className="card__category">{item.category}</span>
+          {item.vegNonVeg && (
+            <span
+              className={`card__diet-tag ${
+                item.isVeg ? 'card__diet-tag--veg' : 'card__diet-tag--non-veg'
+              }`}
+              title={item.vegNonVeg}
+            >
+              <span className="diet-icon">
+                <span className="diet-dot" />
+              </span>
+              <span className="diet-text">{item.vegNonVeg}</span>
+            </span>
+          )}
+        </div>
         <h3 className="card__name">{item.name}</h3>
         <p className="card__description">{item.description}</p>
-        <div className="card__price-section">
-          <span className="card__price">${item.price.toFixed(2)}</span>
-        </div>
+        {item.price !== undefined && item.price !== null && (
+          <div className="card__price-section">
+            <span className="card__price">
+              {typeof item.price === 'number' ? `$${item.price.toFixed(2)}` : item.price}
+            </span>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -5,13 +5,23 @@ import React, { useState, useEffect, useRef } from 'react';
  * of food images from the currently active category.
  * Images cycle every 5 seconds with a smooth opacity transition.
  */
-export default function BackgroundSlideshow({ images = [] }) {
+export default function BackgroundSlideshow({ images = [], isPanning = false }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [prevIndex, setPrevIndex] = useState(null);
   const [isFading, setIsFading] = useState(false);
   const timerRef = useRef(null);
 
-  // Reset index when images change (category switch)
+  // Preload all background images so transitions never stall or wait on network
+  useEffect(() => {
+    images.forEach((src) => {
+      if (src) {
+        const img = new Image();
+        img.src = src;
+      }
+    });
+  }, [images]);
+
+  // Reset index when images list changes
   useEffect(() => {
     setActiveIndex(0);
     setPrevIndex(null);
@@ -23,10 +33,7 @@ export default function BackgroundSlideshow({ images = [] }) {
     if (images.length <= 1) return;
 
     timerRef.current = setInterval(() => {
-      setPrevIndex((prev) => {
-        // prev is the current activeIndex before we advance
-        return activeIndex;
-      });
+      setPrevIndex((prev) => activeIndex);
       setIsFading(true);
 
       // Small delay to let the fade start, then swap
@@ -36,30 +43,41 @@ export default function BackgroundSlideshow({ images = [] }) {
         setTimeout(() => {
           setIsFading(false);
           setPrevIndex(null);
-        }, 1200);
+        }, 1800);
       }, 50);
-    }, 5000);
+    }, 8500);
 
     return () => clearInterval(timerRef.current);
   }, [images, activeIndex]);
 
   if (images.length === 0) return null;
 
+  const getSlideClasses = (isActive) => {
+    const classes = ['bg-slideshow__slide'];
+    if (isActive) {
+      classes.push('bg-slideshow__slide--active');
+      if (isPanning) classes.push('bg-slideshow__slide--panning');
+    } else if (isFading) {
+      classes.push('bg-slideshow__slide--fading-out');
+    }
+    return classes.join(' ');
+  };
+
   return (
     <div className="bg-slideshow" aria-hidden="true">
       {/* Previous image (fading out) */}
       {prevIndex !== null && (
         <div
-          className={`bg-slideshow__slide ${isFading ? 'bg-slideshow__slide--fading-out' : ''}`}
-          style={{ backgroundImage: `url(${images[prevIndex]})` }}
+          className={getSlideClasses(false)}
+          style={{ backgroundImage: `url("${encodeURI(images[prevIndex])}")` }}
         />
       )}
 
       {/* Current active image (fading in) */}
       <div
-        className="bg-slideshow__slide bg-slideshow__slide--active"
+        className={getSlideClasses(true)}
         key={activeIndex}
-        style={{ backgroundImage: `url(${images[activeIndex]})` }}
+        style={{ backgroundImage: `url("${encodeURI(images[activeIndex])}")` }}
       />
     </div>
   );
