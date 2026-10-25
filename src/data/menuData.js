@@ -1389,8 +1389,8 @@ export const menuData = [
     "name": "Macchiato",
     "description": "Warm, freshly brewed espresso coffee steamed with milk and froth.",
     "category": "Hot Coffees",
-    "vegNonVeg": "Non-Veg",
-    "isVeg": false,
+    "vegNonVeg": "Veg",
+    "isVeg": true,
     "imageUrl": "/Menu_images/Macchiato.webp",
     "bestSeller": false
   },

@@ -1777,6 +1777,10 @@ body.dark-theme .bg-slideshow__slide--active {
     width: 200px;
   }
 
+  .corner-decor--bottom-right {
+    bottom: 45px;
+  }
+
   .app__container {
     padding: var(--space-xl) var(--space-md);
   }
@@ -1935,6 +1939,10 @@ body.dark-theme .bg-slideshow__slide--active {
 
   .corner-decor {
     width: 120px;
+  }
+
+  .corner-decor--bottom-right {
+    bottom: 55px;
   }
 
   /* Keep cards horizontal on phones with images pushed towards the closer edge */
