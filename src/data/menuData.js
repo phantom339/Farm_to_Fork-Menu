@@ -11,7 +11,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Pahadi_Murga.png",
+    "imageUrl": "/Menu_images/Pahadi_Murga.webp",
     "bestSeller": false
   },
   {
@@ -21,7 +21,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_Maharaja.png",
+    "imageUrl": "/Menu_images/Chicken_Maharaja.webp",
     "bestSeller": false
   },
   {
@@ -31,7 +31,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_korma.png",
+    "imageUrl": "/Menu_images/Chicken_korma.webp",
     "bestSeller": false
   },
   {
@@ -41,7 +41,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_Kali_mirch.png",
+    "imageUrl": "/Menu_images/Chicken_Kali_mirch.webp",
     "bestSeller": false
   },
   {
@@ -51,7 +51,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/chicken_hara_bhara.png",
+    "imageUrl": "/Menu_images/chicken_hara_bhara.webp",
     "bestSeller": false
   },
   {
@@ -61,7 +61,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Murgh-Makhni.jpg",
+    "imageUrl": "/Menu_images/Murgh-Makhni.webp",
     "bestSeller": false
   },
   {
@@ -71,7 +71,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/egg-keema-masala.jpg",
+    "imageUrl": "/Menu_images/egg-keema-masala.webp",
     "bestSeller": false
   },
   {
@@ -81,7 +81,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Mughlai_egg_korma.png",
+    "imageUrl": "/Menu_images/Mughlai_egg_korma.webp",
     "bestSeller": false
   },
   {
@@ -91,7 +91,7 @@ export const menuData = [
     "category": "Non-veg Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Egg_makhani.png",
+    "imageUrl": "/Menu_images/Egg_makhani.webp",
     "bestSeller": false
   },
   {
@@ -101,7 +101,7 @@ export const menuData = [
     "category": "TANDOOR STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_Sahahi_kabab.png",
+    "imageUrl": "/Menu_images/Chicken_Sahahi_kabab.webp",
     "bestSeller": false
   },
   {
@@ -111,7 +111,7 @@ export const menuData = [
     "category": "TANDOOR STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_Reshmi_kabab.jpg",
+    "imageUrl": "/Menu_images/Chicken_Reshmi_kabab.webp",
     "bestSeller": false
   },
   {
@@ -121,7 +121,7 @@ export const menuData = [
     "category": "TANDOOR STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_tangdi_kabab.jpg",
+    "imageUrl": "/Menu_images/Chicken_tangdi_kabab.webp",
     "bestSeller": false
   },
   {
@@ -151,7 +151,7 @@ export const menuData = [
     "category": "TANDOOR STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_hydrabadi_kabab.jpeg",
+    "imageUrl": "/Menu_images/Chicken_hydrabadi_kabab.webp",
     "bestSeller": false
   },
   {
@@ -161,7 +161,7 @@ export const menuData = [
     "category": "VEGETABLE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mix_veg_diwani_handi.png",
+    "imageUrl": "/Menu_images/Mix_veg_diwani_handi.webp",
     "bestSeller": false
   },
   {
@@ -171,7 +171,7 @@ export const menuData = [
     "category": "VEGETABLE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg_patiala.png",
+    "imageUrl": "/Menu_images/Veg_patiala.webp",
     "bestSeller": false
   },
   {
@@ -181,7 +181,7 @@ export const menuData = [
     "category": "VEGETABLE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg_keema_masala.jpg",
+    "imageUrl": "/Menu_images/Veg_keema_masala.webp",
     "bestSeller": false
   },
   {
@@ -191,7 +191,7 @@ export const menuData = [
     "category": "VEGETABLE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/MUSHROOM DO PYAZA.avif",
+    "imageUrl": "/Menu_images/MUSHROOM DO PYAZA.webp",
     "bestSeller": false
   },
   {
@@ -201,7 +201,7 @@ export const menuData = [
     "category": "VEGETABLE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/KURKURI BHINDI.jpeg",
+    "imageUrl": "/Menu_images/KURKURI BHINDI.webp",
     "bestSeller": false
   },
   {
@@ -211,7 +211,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/BANARSI DUM ALOO.jpg",
+    "imageUrl": "/Menu_images/BANARSI DUM ALOO.webp",
     "bestSeller": false
   },
   {
@@ -221,7 +221,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/FALGUNI MALAI KOJTA.avif",
+    "imageUrl": "/Menu_images/FALGUNI MALAI KOJTA.webp",
     "bestSeller": false
   },
   {
@@ -241,7 +241,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Paneer 3 mirch.jpg",
+    "imageUrl": "/Menu_images/Paneer 3 mirch.webp",
     "bestSeller": false
   },
   {
@@ -251,7 +251,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Paneer_tikka_masala.jpg",
+    "imageUrl": "/Menu_images/Paneer_tikka_masala.webp",
     "bestSeller": false
   },
   {
@@ -261,7 +261,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Paneer_patiala.png",
+    "imageUrl": "/Menu_images/Paneer_patiala.webp",
     "bestSeller": false
   },
   {
@@ -291,7 +291,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mixed_dal_tadka.jpg",
+    "imageUrl": "/Menu_images/Mixed_dal_tadka.webp",
     "bestSeller": false
   },
   {
@@ -301,7 +301,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Pindi_chole.jpg",
+    "imageUrl": "/Menu_images/Pindi_chole.webp",
     "bestSeller": false
   },
   {
@@ -311,7 +311,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Rajma_masala.jpg",
+    "imageUrl": "/Menu_images/Rajma_masala.webp",
     "bestSeller": false
   },
   {
@@ -321,7 +321,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/PanchRatan_dal.jpg",
+    "imageUrl": "/Menu_images/PanchRatan_dal.webp",
     "bestSeller": false
   },
   {
@@ -341,7 +341,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Gatta_Kadhi.png",
+    "imageUrl": "/Menu_images/Gatta_Kadhi.webp",
     "bestSeller": false
   },
   {
@@ -351,7 +351,7 @@ export const menuData = [
     "category": "INDIAN MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Hydrabadi_Kadhi.png",
+    "imageUrl": "/Menu_images/Hydrabadi_Kadhi.webp",
     "bestSeller": false
   },
   {
@@ -361,7 +361,7 @@ export const menuData = [
     "category": "CHINESE STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chiken_lollipop.png",
+    "imageUrl": "/Menu_images/Chiken_lollipop.webp",
     "bestSeller": false
   },
   {
@@ -381,7 +381,7 @@ export const menuData = [
     "category": "CHINESE STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_Momo.jpg",
+    "imageUrl": "/Menu_images/Chicken_Momo.webp",
     "bestSeller": false
   },
   {
@@ -391,7 +391,7 @@ export const menuData = [
     "category": "CHINESE STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_manchurian.jpg",
+    "imageUrl": "/Menu_images/Chicken_manchurian.webp",
     "bestSeller": false
   },
   {
@@ -401,7 +401,7 @@ export const menuData = [
     "category": "CHINESE STARTERS [NON-VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_spring_roll.jpeg",
+    "imageUrl": "/Menu_images/Chicken_spring_roll.webp",
     "bestSeller": false
   },
   {
@@ -411,7 +411,7 @@ export const menuData = [
     "category": "CHINESE STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Vegetable Momo.jpg",
+    "imageUrl": "/Menu_images/Vegetable Momo.webp",
     "bestSeller": false
   },
   {
@@ -441,7 +441,7 @@ export const menuData = [
     "category": "CHINESE STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Crispy Corn.jpeg",
+    "imageUrl": "/Menu_images/Crispy Corn.webp",
     "bestSeller": false
   },
   {
@@ -451,7 +451,7 @@ export const menuData = [
     "category": "CHINESE STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Manchurian.jpg",
+    "imageUrl": "/Menu_images/Manchurian.webp",
     "bestSeller": false
   },
   {
@@ -461,7 +461,7 @@ export const menuData = [
     "category": "INDIAN STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Paneer angara kabab.jpeg",
+    "imageUrl": "/Menu_images/Paneer angara kabab.webp",
     "bestSeller": false
   },
   {
@@ -471,7 +471,7 @@ export const menuData = [
     "category": "INDIAN STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Reshmi_panner_tikka.png",
+    "imageUrl": "/Menu_images/Reshmi_panner_tikka.webp",
     "bestSeller": false
   },
   {
@@ -481,7 +481,7 @@ export const menuData = [
     "category": "INDIAN STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg Shahi Kabab.jpg",
+    "imageUrl": "/Menu_images/Veg Shahi Kabab.webp",
     "bestSeller": false
   },
   {
@@ -491,7 +491,7 @@ export const menuData = [
     "category": "INDIAN STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Dahi ke Sholey.jpg",
+    "imageUrl": "/Menu_images/Dahi ke Sholey.webp",
     "bestSeller": false
   },
   {
@@ -511,7 +511,7 @@ export const menuData = [
     "category": "INDIAN STARTER [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Malai_Broccoli.jpeg",
+    "imageUrl": "/Menu_images/Malai_Broccoli.webp",
     "bestSeller": false
   },
   {
@@ -521,7 +521,7 @@ export const menuData = [
     "category": "ROLL [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg_Kathi_roll.png",
+    "imageUrl": "/Menu_images/Veg_Kathi_roll.webp",
     "bestSeller": false
   },
   {
@@ -541,7 +541,7 @@ export const menuData = [
     "category": "ROLL [VEG]",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Soya_Chaap_Kathi_Roll.png",
+    "imageUrl": "/Menu_images/Soya_Chaap_Kathi_Roll.webp",
     "bestSeller": false
   },
   {
@@ -561,7 +561,7 @@ export const menuData = [
     "category": "KATHI ROLL [NON VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken_Kathi_Roll.avif",
+    "imageUrl": "/Menu_images/Chicken_Kathi_Roll.webp",
     "bestSeller": false
   },
   {
@@ -571,7 +571,7 @@ export const menuData = [
     "category": "KATHI ROLL [NON VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Egg_Kathi_Roll.png",
+    "imageUrl": "/Menu_images/Egg_Kathi_Roll.webp",
     "bestSeller": false
   },
   {
@@ -581,7 +581,7 @@ export const menuData = [
     "category": "KATHI ROLL [NON VEG]",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Egg_Chicken_Kathi_Roll.png",
+    "imageUrl": "/Menu_images/Egg_Chicken_Kathi_Roll.webp",
     "bestSeller": false
   },
   {
@@ -601,7 +601,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Rava_Idli.jpg",
+    "imageUrl": "/Menu_images/Rava_Idli.webp",
     "bestSeller": false
   },
   {
@@ -611,7 +611,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Carrot_idli.jpeg",
+    "imageUrl": "/Menu_images/Carrot_idli.webp",
     "bestSeller": false
   },
   {
@@ -621,7 +621,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Vermicelli (Semiya) Upma.jpg",
+    "imageUrl": "/Menu_images/Vermicelli (Semiya) Upma.webp",
     "bestSeller": false
   },
   {
@@ -631,7 +631,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Rava Upma.jpg",
+    "imageUrl": "/Menu_images/Rava Upma.webp",
     "bestSeller": false
   },
   {
@@ -641,7 +641,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Bismilli Rice.jpeg",
+    "imageUrl": "/Menu_images/Bismilli Rice.webp",
     "bestSeller": false
   },
   {
@@ -651,7 +651,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Vegetable Uttapam.jpg",
+    "imageUrl": "/Menu_images/Vegetable Uttapam.webp",
     "bestSeller": false
   },
   {
@@ -661,7 +661,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mysoor_Masala_Dosa.png",
+    "imageUrl": "/Menu_images/Mysoor_Masala_Dosa.webp",
     "bestSeller": false
   },
   {
@@ -681,7 +681,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Rava_Masala_Dosa.jpeg",
+    "imageUrl": "/Menu_images/Rava_Masala_Dosa.webp",
     "bestSeller": false
   },
   {
@@ -691,7 +691,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Medu_vada.jpg",
+    "imageUrl": "/Menu_images/Medu_vada.webp",
     "bestSeller": false
   },
   {
@@ -701,7 +701,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg Cutlets.jpg",
+    "imageUrl": "/Menu_images/Veg Cutlets.webp",
     "bestSeller": false
   },
   {
@@ -711,7 +711,7 @@ export const menuData = [
     "category": "SOUTH INDIAN",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Appam.jpg",
+    "imageUrl": "/Menu_images/Appam.webp",
     "bestSeller": false
   },
   {
@@ -721,7 +721,7 @@ export const menuData = [
     "category": "TANDOORI SOYA CHAAP",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Achari Soya Chaap.jpeg",
+    "imageUrl": "/Menu_images/Achari Soya Chaap.webp",
     "bestSeller": false
   },
   {
@@ -731,7 +731,7 @@ export const menuData = [
     "category": "TANDOORI SOYA CHAAP",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Kashmiri Soya Chaap.jpeg",
+    "imageUrl": "/Menu_images/Kashmiri Soya Chaap.webp",
     "bestSeller": false
   },
   {
@@ -741,7 +741,7 @@ export const menuData = [
     "category": "TANDOORI SOYA CHAAP",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Afghani Soya Chaap.png",
+    "imageUrl": "/Menu_images/Afghani Soya Chaap.webp",
     "bestSeller": false
   },
   {
@@ -751,7 +751,7 @@ export const menuData = [
     "category": "SOYA CHAAP MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Chaap Rogan Josh.png",
+    "imageUrl": "/Menu_images/Chaap Rogan Josh.webp",
     "bestSeller": false
   },
   {
@@ -761,7 +761,7 @@ export const menuData = [
     "category": "SOYA CHAAP MAIN COURSE",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Soya Chaap Lababdar.jpg",
+    "imageUrl": "/Menu_images/Soya Chaap Lababdar.webp",
     "bestSeller": false
   },
   {
@@ -781,7 +781,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Creamy Alfedo (White Sauce).jpg",
+    "imageUrl": "/Menu_images/Chicken Creamy Alfedo (White Sauce).webp",
     "bestSeller": false
   },
   {
@@ -791,7 +791,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Arrabiata (Red Sauce).jpg",
+    "imageUrl": "/Menu_images/Chicken Arrabiata (Red Sauce).webp",
     "bestSeller": false
   },
   {
@@ -801,7 +801,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Pink Sauce (Mix Sauce).jpg",
+    "imageUrl": "/Menu_images/Chicken Pink Sauce (Mix Sauce).webp",
     "bestSeller": false
   },
   {
@@ -811,7 +811,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Margaritta Pizza.jpg",
+    "imageUrl": "/Menu_images/Chicken Margaritta Pizza.webp",
     "bestSeller": false
   },
   {
@@ -831,7 +831,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Bombay Grilled Chicken Sandwich.jpg",
+    "imageUrl": "/Menu_images/Bombay Grilled Chicken Sandwich.webp",
     "bestSeller": false
   },
   {
@@ -841,7 +841,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Grilled Cheese Club Sandwich.jpg",
+    "imageUrl": "/Menu_images/Chicken Grilled Cheese Club Sandwich.webp",
     "bestSeller": false
   },
   {
@@ -851,7 +851,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Cheese Burst Chicken Burger.png",
+    "imageUrl": "/Menu_images/Cheese Burst Chicken Burger.webp",
     "bestSeller": false
   },
   {
@@ -861,7 +861,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Crispy Chicken Burger.jpg",
+    "imageUrl": "/Menu_images/Crispy Chicken Burger.webp",
     "bestSeller": false
   },
   {
@@ -871,7 +871,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Smoky Grilled Fish.jpg",
+    "imageUrl": "/Menu_images/Smoky Grilled Fish.webp",
     "bestSeller": false
   },
   {
@@ -881,7 +881,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Barbecue (BBQ) Grilled Chicken.jpg",
+    "imageUrl": "/Menu_images/Barbecue (BBQ) Grilled Chicken.webp",
     "bestSeller": false
   },
   {
@@ -891,7 +891,7 @@ export const menuData = [
     "category": "CONTINENTAL (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Gaeng Khiao Wan Gai [Thai Green Chicken Curry].jpg",
+    "imageUrl": "/Menu_images/Gaeng Khiao Wan Gai [Thai Green Chicken Curry].webp",
     "bestSeller": false
   },
   {
@@ -911,7 +911,7 @@ export const menuData = [
     "category": "CONTINENTAL SOUPS (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Palak Broccoli Soup.jpg",
+    "imageUrl": "/Menu_images/Palak Broccoli Soup.webp",
     "bestSeller": false
   },
   {
@@ -921,7 +921,7 @@ export const menuData = [
     "category": "CONTINENTAL SOUPS (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mushroom Palak Soup.jpg",
+    "imageUrl": "/Menu_images/Mushroom Palak Soup.webp",
     "bestSeller": false
   },
   {
@@ -931,7 +931,7 @@ export const menuData = [
     "category": "CONTINENTAL SOUP (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken And Mushroom Chowder.jpg",
+    "imageUrl": "/Menu_images/Chicken And Mushroom Chowder.webp",
     "bestSeller": false
   },
   {
@@ -941,7 +941,7 @@ export const menuData = [
     "category": "CONTINENTAL SOUP (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Cream Of Chicken Soup.jpg",
+    "imageUrl": "/Menu_images/Cream Of Chicken Soup.webp",
     "bestSeller": false
   },
   {
@@ -951,7 +951,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Punjabi Samosa.jpeg",
+    "imageUrl": "/Menu_images/Punjabi Samosa.webp",
     "bestSeller": false
   },
   {
@@ -961,7 +961,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Irani Samosa : Samosa Patti.jpeg",
+    "imageUrl": "/Menu_images/Irani Samosa : Samosa Patti.webp",
     "bestSeller": false
   },
   {
@@ -981,7 +981,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cheese And Corn Samosa.jpg",
+    "imageUrl": "/Menu_images/Cheese And Corn Samosa.webp",
     "bestSeller": false
   },
   {
@@ -1001,7 +1001,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Keema Samosa.jpg",
+    "imageUrl": "/Menu_images/Chicken Keema Samosa.webp",
     "bestSeller": false
   },
   {
@@ -1011,7 +1011,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Egg Keema Samosa.jpg",
+    "imageUrl": "/Menu_images/Egg Keema Samosa.webp",
     "bestSeller": false
   },
   {
@@ -1021,7 +1021,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Matar Ki Kachori.jpg",
+    "imageUrl": "/Menu_images/Matar Ki Kachori.webp",
     "bestSeller": false
   },
   {
@@ -1051,7 +1051,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Masala Poha.jpg",
+    "imageUrl": "/Menu_images/Masala Poha.webp",
     "bestSeller": false
   },
   {
@@ -1081,7 +1081,7 @@ export const menuData = [
     "category": "HIGH TEA & COFFEE / BREAKFAST",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Pakoda.cms",
+    "imageUrl": "/Menu_images/Chicken Pakoda.webp",
     "bestSeller": false
   },
   {
@@ -1091,7 +1091,7 @@ export const menuData = [
     "category": "CHINESE CHOPSUEY",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg Triple Chopsuey.jpg",
+    "imageUrl": "/Menu_images/Veg Triple Chopsuey.webp",
     "bestSeller": false
   },
   {
@@ -1121,7 +1121,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Arrabbiata (Red Sauce).jpg",
+    "imageUrl": "/Menu_images/Arrabbiata (Red Sauce).webp",
     "bestSeller": false
   },
   {
@@ -1141,7 +1141,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Margherita Pizza.jpg",
+    "imageUrl": "/Menu_images/Margherita Pizza.webp",
     "bestSeller": false
   },
   {
@@ -1161,7 +1161,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Peri-Peri Paneer Pizza.png",
+    "imageUrl": "/Menu_images/Peri-Peri Paneer Pizza.webp",
     "bestSeller": false
   },
   {
@@ -1171,7 +1171,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Bombay Grilled Sandwich.jpg",
+    "imageUrl": "/Menu_images/Bombay Grilled Sandwich.webp",
     "bestSeller": false
   },
   {
@@ -1181,7 +1181,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Grilled Cheese Club Sandwich.jpeg",
+    "imageUrl": "/Menu_images/Grilled Cheese Club Sandwich.webp",
     "bestSeller": false
   },
   {
@@ -1191,7 +1191,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cheese Burst Burger.png",
+    "imageUrl": "/Menu_images/Cheese Burst Burger.webp",
     "bestSeller": false
   },
   {
@@ -1201,7 +1201,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Crispy Paneer Burger.jpeg",
+    "imageUrl": "/Menu_images/Crispy Paneer Burger.webp",
     "bestSeller": false
   },
   {
@@ -1221,7 +1221,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cheesy Loaded Fries.avif",
+    "imageUrl": "/Menu_images/Cheesy Loaded Fries.webp",
     "bestSeller": false
   },
   {
@@ -1231,7 +1231,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Gaeng Khiao Wan Phak:Tahu [Vegetarian Green Curry].jpeg",
+    "imageUrl": "/Menu_images/Gaeng Khiao Wan Phak:Tahu [Vegetarian Green Curry].webp",
     "bestSeller": false
   },
   {
@@ -1241,7 +1241,7 @@ export const menuData = [
     "category": "CONTINENTAL (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Gaeng Phet Phak [Vegetarian Red Curry].jpg",
+    "imageUrl": "/Menu_images/Gaeng Phet Phak [Vegetarian Red Curry].webp",
     "bestSeller": false
   },
   {
@@ -1251,7 +1251,7 @@ export const menuData = [
     "category": "SIZZLERS (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Barbecue (BBQ) Sizzler.jpeg",
+    "imageUrl": "/Menu_images/Barbecue (BBQ) Sizzler.webp",
     "bestSeller": false
   },
   {
@@ -1261,7 +1261,7 @@ export const menuData = [
     "category": "SIZZLERS (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Italian Sizzler.jpeg",
+    "imageUrl": "/Menu_images/Italian Sizzler.webp",
     "bestSeller": false
   },
   {
@@ -1271,7 +1271,7 @@ export const menuData = [
     "category": "SIZZLERS (VEG)",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mexican Sizzler.jpeg",
+    "imageUrl": "/Menu_images/Mexican Sizzler.webp",
     "bestSeller": false
   },
   {
@@ -1281,7 +1281,7 @@ export const menuData = [
     "category": "SIZZLERS (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Seafood Sizzler.jpg",
+    "imageUrl": "/Menu_images/Seafood Sizzler.webp",
     "bestSeller": false
   },
   {
@@ -1291,7 +1291,7 @@ export const menuData = [
     "category": "SIZZLERS (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Grilled Chicken Sizzler.jpg",
+    "imageUrl": "/Menu_images/Grilled Chicken Sizzler.webp",
     "bestSeller": false
   },
   {
@@ -1301,7 +1301,7 @@ export const menuData = [
     "category": "SIZZLERS (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Exotica Sizzler.jpeg",
+    "imageUrl": "/Menu_images/Exotica Sizzler.webp",
     "bestSeller": false
   },
   {
@@ -1311,7 +1311,7 @@ export const menuData = [
     "category": "SIZZLERS (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Barbecue (BBQ) Sizzler (Chicken).jpeg",
+    "imageUrl": "/Menu_images/Barbecue (BBQ) Sizzler (Chicken).webp",
     "bestSeller": false
   },
   {
@@ -1321,7 +1321,7 @@ export const menuData = [
     "category": "SIZZLERS (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Italian Sizzler (Chicken).jpeg",
+    "imageUrl": "/Menu_images/Italian Sizzler (Chicken).webp",
     "bestSeller": false
   },
   {
@@ -1331,7 +1331,7 @@ export const menuData = [
     "category": "SIZZLERS (NON-VEG)",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Mexican Sizzler (Chicken).jpeg",
+    "imageUrl": "/Menu_images/Mexican Sizzler (Chicken).webp",
     "bestSeller": false
   },
   {
@@ -1341,7 +1341,7 @@ export const menuData = [
     "category": "Hot Coffees",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cafe Latte.avif",
+    "imageUrl": "/Menu_images/Cafe Latte.webp",
     "bestSeller": false
   },
   {
@@ -1351,7 +1351,7 @@ export const menuData = [
     "category": "Hot Coffees",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cappuccino.jpg",
+    "imageUrl": "/Menu_images/Cappuccino.webp",
     "bestSeller": false
   },
   {
@@ -1361,7 +1361,7 @@ export const menuData = [
     "category": "Hot Coffees",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Expresso.jpg",
+    "imageUrl": "/Menu_images/Expresso.webp",
     "bestSeller": false
   },
   {
@@ -1381,7 +1381,7 @@ export const menuData = [
     "category": "Hot Coffees",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Americano.jpg",
+    "imageUrl": "/Menu_images/Americano.webp",
     "bestSeller": false
   },
   {
@@ -1401,7 +1401,7 @@ export const menuData = [
     "category": "Hot Coffees",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Affogato.jpeg",
+    "imageUrl": "/Menu_images/Affogato.webp",
     "bestSeller": false
   },
   {
@@ -1411,7 +1411,7 @@ export const menuData = [
     "category": "Hot Coffees",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cafe Mocha.jpeg",
+    "imageUrl": "/Menu_images/Cafe Mocha.webp",
     "bestSeller": false
   },
   {
@@ -1431,7 +1431,7 @@ export const menuData = [
     "category": "Indian",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Paneer Red Pepper Makhni.jpg",
+    "imageUrl": "/Menu_images/Paneer Red Pepper Makhni.webp",
     "bestSeller": false
   },
   {
@@ -1441,7 +1441,7 @@ export const menuData = [
     "category": "Indian",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Tikka Masala.jpg",
+    "imageUrl": "/Menu_images/Chicken Tikka Masala.webp",
     "bestSeller": false
   },
   {
@@ -1451,7 +1451,7 @@ export const menuData = [
     "category": "Indian",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Traditional Homestyle Matar Mushroom.jpeg",
+    "imageUrl": "/Menu_images/Traditional Homestyle Matar Mushroom.webp",
     "bestSeller": false
   },
   {
@@ -1461,7 +1461,7 @@ export const menuData = [
     "category": "Indian",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Baigan Ka Bharta.jpg",
+    "imageUrl": "/Menu_images/Baigan Ka Bharta.webp",
     "bestSeller": false
   },
   {
@@ -1471,7 +1471,7 @@ export const menuData = [
     "category": "Indian",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Latpati Macchi.jpg",
+    "imageUrl": "/Menu_images/Latpati Macchi.webp",
     "bestSeller": false
   },
   {
@@ -1481,7 +1481,7 @@ export const menuData = [
     "category": "Indian",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Pahari Style Chicken Curry.jpeg",
+    "imageUrl": "/Menu_images/Pahari Style Chicken Curry.webp",
     "bestSeller": false
   },
   {
@@ -1491,7 +1491,7 @@ export const menuData = [
     "category": "Tandoor",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Tikka Peshawari.jpeg",
+    "imageUrl": "/Menu_images/Chicken Tikka Peshawari.webp",
     "bestSeller": false
   },
   {
@@ -1501,7 +1501,7 @@ export const menuData = [
     "category": "Tandoor",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Tikka Malai.jpeg",
+    "imageUrl": "/Menu_images/Chicken Tikka Malai.webp",
     "bestSeller": false
   },
   {
@@ -1511,7 +1511,7 @@ export const menuData = [
     "category": "Tandoor",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Tikka Kothmiri.jpg",
+    "imageUrl": "/Menu_images/Chicken Tikka Kothmiri.webp",
     "bestSeller": false
   },
   {
@@ -1541,7 +1541,7 @@ export const menuData = [
     "category": "Tandoor",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Tikka Malai.jpeg",
+    "imageUrl": "/Menu_images/Chicken Tikka Malai.webp",
     "bestSeller": false
   },
   {
@@ -1551,7 +1551,7 @@ export const menuData = [
     "category": "Tandoor",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mushroom Galauti.jpeg",
+    "imageUrl": "/Menu_images/Mushroom Galauti.webp",
     "bestSeller": false
   },
   {
@@ -1561,7 +1561,7 @@ export const menuData = [
     "category": "Tandoor",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Assorted Indian Breads.jpg",
+    "imageUrl": "/Menu_images/Assorted Indian Breads.webp",
     "bestSeller": false
   },
   {
@@ -1571,7 +1571,7 @@ export const menuData = [
     "category": "Continental",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Black Pepper Prawns.jpg",
+    "imageUrl": "/Menu_images/Black Pepper Prawns.webp",
     "bestSeller": false
   },
   {
@@ -1581,7 +1581,7 @@ export const menuData = [
     "category": "Continental",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cream Of Mushroom Soup.jpg",
+    "imageUrl": "/Menu_images/Cream Of Mushroom Soup.webp",
     "bestSeller": false
   },
   {
@@ -1611,7 +1611,7 @@ export const menuData = [
     "category": "Continental",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Sliders.jpeg",
+    "imageUrl": "/Menu_images/Chicken Sliders.webp",
     "bestSeller": false
   },
   {
@@ -1631,7 +1631,7 @@ export const menuData = [
     "category": "Continental",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Truffle French Fries With Parmesan Cheese.jpg",
+    "imageUrl": "/Menu_images/Truffle French Fries With Parmesan Cheese.webp",
     "bestSeller": false
   },
   {
@@ -1641,7 +1641,7 @@ export const menuData = [
     "category": "Chinese",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg Noodles.jpg",
+    "imageUrl": "/Menu_images/Veg Noodles.webp",
     "bestSeller": false
   },
   {
@@ -1651,7 +1651,7 @@ export const menuData = [
     "category": "Chinese",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Veg Chilli Garlic Noodles.jpg",
+    "imageUrl": "/Menu_images/Veg Chilli Garlic Noodles.webp",
     "bestSeller": false
   },
   {
@@ -1661,7 +1661,7 @@ export const menuData = [
     "category": "Chinese",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Chilli Garlic Noodles.jpeg",
+    "imageUrl": "/Menu_images/Chicken Chilli Garlic Noodles.webp",
     "bestSeller": false
   },
   {
@@ -1671,7 +1671,7 @@ export const menuData = [
     "category": "Chinese",
     "vegNonVeg": "Veg & Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Manchow Soup (Veg:Non-Veg).jpg",
+    "imageUrl": "/Menu_images/Manchow Soup (Veg:Non-Veg).webp",
     "bestSeller": false
   },
   {
@@ -1691,7 +1691,7 @@ export const menuData = [
     "category": "Chinese",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chilli Chicken.jpeg",
+    "imageUrl": "/Menu_images/Chilli Chicken.webp",
     "bestSeller": false
   },
   {
@@ -1701,7 +1701,7 @@ export const menuData = [
     "category": "Chinese",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Chilli Paneer.jpg",
+    "imageUrl": "/Menu_images/Chilli Paneer.webp",
     "bestSeller": false
   },
   {
@@ -1711,7 +1711,7 @@ export const menuData = [
     "category": "Chinese",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Honey Chilli Potato.jpg",
+    "imageUrl": "/Menu_images/Honey Chilli Potato.webp",
     "bestSeller": false
   },
   {
@@ -1721,7 +1721,7 @@ export const menuData = [
     "category": "Main Course",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Baby Corn Mushroom Broccoli.jpeg",
+    "imageUrl": "/Menu_images/Baby Corn Mushroom Broccoli.webp",
     "bestSeller": false
   },
   {
@@ -1741,7 +1741,7 @@ export const menuData = [
     "category": "Main Course",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Fish With Hot Garlic Sauce.jpg",
+    "imageUrl": "/Menu_images/Fish With Hot Garlic Sauce.webp",
     "bestSeller": false
   },
   {
@@ -1751,7 +1751,7 @@ export const menuData = [
     "category": "Traditional Indian Items",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Fish Pakora.jpg",
+    "imageUrl": "/Menu_images/Fish Pakora.webp",
     "bestSeller": false
   },
   {
@@ -1761,7 +1761,7 @@ export const menuData = [
     "category": "Traditional Indian Items",
     "vegNonVeg": "Non-Veg",
     "isVeg": false,
-    "imageUrl": "/Menu_images/Chicken Pakora.jpg",
+    "imageUrl": "/Menu_images/Chicken Pakora.webp",
     "bestSeller": false
   },
   {
@@ -1781,7 +1781,7 @@ export const menuData = [
     "category": "Traditional Indian Items",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mix Veg Pakora.jpeg",
+    "imageUrl": "/Menu_images/Mix Veg Pakora.webp",
     "bestSeller": false
   },
   {
@@ -1791,7 +1791,7 @@ export const menuData = [
     "category": "Cold Coffees",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cold Americano.jpg",
+    "imageUrl": "/Menu_images/Cold Americano.webp",
     "bestSeller": false
   },
   {
@@ -1821,7 +1821,7 @@ export const menuData = [
     "category": "Shakes & Smoothies",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Cookie Crumble Smoothie.jpg",
+    "imageUrl": "/Menu_images/Cookie Crumble Smoothie.webp",
     "bestSeller": false
   },
   {
@@ -1831,7 +1831,7 @@ export const menuData = [
     "category": "Shakes & Smoothies",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Ferrero Rocher Shake.jpeg",
+    "imageUrl": "/Menu_images/Ferrero Rocher Shake.webp",
     "bestSeller": false
   },
   {
@@ -1841,7 +1841,7 @@ export const menuData = [
     "category": "Shakes & Smoothies",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Strawberry Milk Shake.jpg",
+    "imageUrl": "/Menu_images/Strawberry Milk Shake.webp",
     "bestSeller": false
   },
   {
@@ -1851,7 +1851,7 @@ export const menuData = [
     "category": "Ice Teas",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Apple Cinnamon Ice Tea.jpeg",
+    "imageUrl": "/Menu_images/Apple Cinnamon Ice Tea.webp",
     "bestSeller": false
   },
   {
@@ -1861,7 +1861,7 @@ export const menuData = [
     "category": "Ice Teas",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Peach Ice Tea.jpg",
+    "imageUrl": "/Menu_images/Peach Ice Tea.webp",
     "bestSeller": false
   },
   {
@@ -1871,7 +1871,7 @@ export const menuData = [
     "category": "Ice Teas",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Non Alcoholic Long Beach Ice Tea.jpg",
+    "imageUrl": "/Menu_images/Non Alcoholic Long Beach Ice Tea.webp",
     "bestSeller": false
   },
   {
@@ -1881,7 +1881,7 @@ export const menuData = [
     "category": "Ice Teas",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Non Alcoholic Long Island Ice Tea.jpg",
+    "imageUrl": "/Menu_images/Non Alcoholic Long Island Ice Tea.webp",
     "bestSeller": false
   },
   {
@@ -1891,7 +1891,7 @@ export const menuData = [
     "category": "Mocktails",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Virgin Mojito.jpeg",
+    "imageUrl": "/Menu_images/Virgin Mojito.webp",
     "bestSeller": false
   },
   {
@@ -1901,7 +1901,7 @@ export const menuData = [
     "category": "Mocktails",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Virgin Blue Lagoon.jpg",
+    "imageUrl": "/Menu_images/Virgin Blue Lagoon.webp",
     "bestSeller": false
   },
   {
@@ -1911,7 +1911,7 @@ export const menuData = [
     "category": "Mocktails",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Non Alcoholic Pina Colada.jpeg",
+    "imageUrl": "/Menu_images/Non Alcoholic Pina Colada.webp",
     "bestSeller": false
   },
   {
@@ -1921,7 +1921,7 @@ export const menuData = [
     "category": "Mocktails",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Virgin Mary.jpg",
+    "imageUrl": "/Menu_images/Virgin Mary.webp",
     "bestSeller": false
   },
   {
@@ -1931,7 +1931,7 @@ export const menuData = [
     "category": "Mocktails",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Sweet Sunrise.jpg",
+    "imageUrl": "/Menu_images/Sweet Sunrise.webp",
     "bestSeller": false
   },
   {
@@ -1951,7 +1951,7 @@ export const menuData = [
     "category": "Accompaniments",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Roasted Papad.jpg",
+    "imageUrl": "/Menu_images/Roasted Papad.webp",
     "bestSeller": false
   },
   {
@@ -1971,7 +1971,7 @@ export const menuData = [
     "category": "Raita",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Mix Vegetable Raita.jpg",
+    "imageUrl": "/Menu_images/Mix Vegetable Raita.webp",
     "bestSeller": false
   },
   {
@@ -1981,7 +1981,7 @@ export const menuData = [
     "category": "Raita",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Boondi Ka Raita.jpg",
+    "imageUrl": "/Menu_images/Boondi Ka Raita.webp",
     "bestSeller": false
   },
   {
@@ -1991,7 +1991,7 @@ export const menuData = [
     "category": "Raita",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Peanut Masala.jpg",
+    "imageUrl": "/Menu_images/Peanut Masala.webp",
     "bestSeller": false
   },
   {
@@ -2001,7 +2001,7 @@ export const menuData = [
     "category": "Raita",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Pineapple Raita.avif",
+    "imageUrl": "/Menu_images/Pineapple Raita.webp",
     "bestSeller": false
   },
   {
@@ -2021,7 +2021,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Butter Roti.jpg",
+    "imageUrl": "/Menu_images/Butter Roti.webp",
     "bestSeller": false
   },
   {
@@ -2031,7 +2031,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Lachha Paratha.jpg",
+    "imageUrl": "/Menu_images/Lachha Paratha.webp",
     "bestSeller": false
   },
   {
@@ -2051,7 +2051,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Butter Naan.jpg",
+    "imageUrl": "/Menu_images/Butter Naan.webp",
     "bestSeller": false
   },
   {
@@ -2061,7 +2061,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Garlic Cheese Naan.jpeg",
+    "imageUrl": "/Menu_images/Garlic Cheese Naan.webp",
     "bestSeller": false
   },
   {
@@ -2071,7 +2071,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Missi Roti.jpeg",
+    "imageUrl": "/Menu_images/Missi Roti.webp",
     "bestSeller": false
   },
   {
@@ -2091,7 +2091,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Stuffed Kulcha.jpeg",
+    "imageUrl": "/Menu_images/Stuffed Kulcha.webp",
     "bestSeller": false
   },
   {
@@ -2101,7 +2101,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Stuffed Paratha.jpg",
+    "imageUrl": "/Menu_images/Stuffed Paratha.webp",
     "bestSeller": false
   },
   {
@@ -2111,7 +2111,7 @@ export const menuData = [
     "category": "Indian Breads",
     "vegNonVeg": "Veg",
     "isVeg": true,
-    "imageUrl": "/Menu_images/Bread Basket.jpeg",
+    "imageUrl": "/Menu_images/Bread Basket.webp",
     "bestSeller": false
   }
 ];
