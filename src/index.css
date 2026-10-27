@@ -361,6 +361,7 @@ ul {
     transform: translateY(-18px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -606,6 +607,7 @@ ul {
     opacity: 0;
     transform: translateY(-8px) scale(0.96);
   }
+
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -621,6 +623,7 @@ ul {
     opacity: 0;
     transform: translateX(-50%) translateY(-10px) scale(0.96);
   }
+
   to {
     opacity: 1;
     transform: translateX(-50%) translateY(0) scale(1);
@@ -1208,12 +1211,14 @@ ul {
 
   48% {
     opacity: 0.45;
-    transform: scale(1.22) translateZ(0); /* Deep smooth zoom in */
+    transform: scale(1.22) translateZ(0);
+    /* Deep smooth zoom in */
   }
 
   82% {
     opacity: 0.45;
-    transform: scale(1.02) translateZ(0); /* Smooth gentle zoom back out */
+    transform: scale(1.02) translateZ(0);
+    /* Smooth gentle zoom back out */
   }
 
   100% {
@@ -1241,12 +1246,14 @@ body.dark-theme .bg-slideshow__slide--active {
 
   48% {
     opacity: 0.45;
-    transform: scale(1.22) translateZ(0); /* Deep smooth zoom in */
+    transform: scale(1.22) translateZ(0);
+    /* Deep smooth zoom in */
   }
 
   82% {
     opacity: 0.45;
-    transform: scale(1.02) translateZ(0); /* Smooth gentle zoom back out */
+    transform: scale(1.02) translateZ(0);
+    /* Smooth gentle zoom back out */
   }
 
   100% {
@@ -1519,7 +1526,8 @@ body.dark-theme .bg-slideshow__slide--active {
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #111111; /* Matching description font color */
+  color: #111111;
+  /* Matching description font color */
 }
 
 .card__name {
@@ -1535,7 +1543,8 @@ body.dark-theme .bg-slideshow__slide--active {
   font-family: var(--font-heading);
   font-style: italic;
   font-size: 0.88rem;
-  color: #111111; /* Black for high contrast and effortless readability */
+  color: #111111;
+  /* Black for high contrast and effortless readability */
   line-height: 1.6;
   margin-bottom: var(--space-md);
 }
@@ -1964,7 +1973,8 @@ body.dark-theme .bg-slideshow__slide--active {
 
   /* Control distance from the LEFT edge for even cards */
   .card--even .card__image-container {
-    margin-left: 8px; /* Increase to push further right; decrease to bring closer to left edge */
+    margin-left: 8px;
+    /* Increase to push further right; decrease to bring closer to left edge */
     flex-shrink: 0;
   }
 
@@ -1990,7 +2000,8 @@ body.dark-theme .bg-slideshow__slide--active {
 
   /* Control distance from the RIGHT edge for odd cards */
   .card--odd .card__image-container {
-    margin-right: 8px; /* Increase to push further left; decrease to bring closer to right edge */
+    margin-right: 8px;
+    /* Increase to push further left; decrease to bring closer to right edge */
     flex-shrink: 0;
   }
 
